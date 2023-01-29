@@ -17,10 +17,10 @@ parser.add_argument('--dataset', type=str, default='Lol', help='all, Lol, FiveK'
 args = parser.parse_args()
 
 ### Google drive IDs ######
-Lol_train = '1K29vsPfMUsAkYvmNLcaUgiOEYGMxFydd'      ## https://drive.google.com/file/d/1K29vsPfMUsAkYvmNLcaUgiOEYGMxFydd/view?usp=sharing
-Lol_test = '1jUGpsih3T-1H7t3gqpEdj7ZD5GcU_v0m'      ## https://drive.google.com/file/d/1jUGpsih3T-1H7t3gqpEdj7ZD5GcU_v0m/view?usp=sharing
-FiveK_val = '13A8XA8Gqb2O-Z4mEXo0yL_hyA0Av7kvF'      ## https://drive.google.com/file/d/13A8XA8Gqb2O-Z4mEXo0yL_hyA0Av7kvF/view?usp=sharing
-FiveK_test = '1sdB0DcZ5hodFHMxJxxY16DZwA6JwuwFy'     ## https://drive.google.com/file/d/1sdB0DcZ5hodFHMxJxxY16DZwA6JwuwFy/view?usp=sharing 
+Lol_train = '1x0SfL0yNYBw1l8_khPdvhezCjH24Sqvt'      ## https://drive.google.com/file/d/1K29vsPfMUsAkYvmNLcaUgiOEYGMxFydd/view?usp=sharing
+Lol_test = '17Iy6EQ_Bl0XSPZ0HljnQqNlGGTFmHgVD'      ## https://drive.google.com/file/d/1jUGpsih3T-1H7t3gqpEdj7ZD5GcU_v0m/view?usp=sharing
+FiveK_val = '1x0SfL0yNYBw1l8_khPdvhezCjH24Sqvt'      ## https://drive.google.com/file/d/13A8XA8Gqb2O-Z4mEXo0yL_hyA0Av7kvF/view?usp=sharing
+FiveK_test = '17Iy6EQ_Bl0XSPZ0HljnQqNlGGTFmHgVD'     ## https://drive.google.com/file/d/1sdB0DcZ5hodFHMxJxxY16DZwA6JwuwFy/view?usp=sharing 
 
 dataset = args.dataset
 
